@@ -48,6 +48,7 @@ header a {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 50px;
 }
 .about h1{
     font-size: 70px;
@@ -89,4 +90,84 @@ header a {
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+.form label{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.form input{
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: none;
+}
+.form select{
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: none;
+}
+.form__submit{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+select {
+    appearance: none;
+        outline: none;
+  }
+input {
+    outline: none;
+  }
+button:hover {
+    background-color: white;
+    color: black;
+  }
+.sun-image:hover {
+    opacity: 0.5;
+  }
+  
+  header .logo:hover {
+    opacity: 0.5;
+  }
+button:hover{
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background 0.3s ease-in
+}
+footer {
+    padding: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer__copyright{
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.5;
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+}
+.footer__group{
+    margin-right: 80px;
+}
+.footer__group h3{
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.footer__links{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer__links a{
+    margin-bottom: 15px;
 }
